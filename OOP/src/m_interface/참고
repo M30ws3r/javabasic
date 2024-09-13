@@ -1,0 +1,44 @@
+
+[ class modifier ]
+
+__1__ Class A{
+
+	__2__ int A;
+	__3__ A(){ }
+	__4__ void A(){ }
+}
+
+[1] public / protected / final / abstract(미완성으로 만들어서 부모만 될 수 있도록!)
+[2] public / private / protected / static / final
+[3] public / private / protected /
+[4] public / private / protected / static / final(부모의 값 자식이 변경 못 함) / abstract
+
+===============================================
+
+[ interface ]
+
+interface B{
+	[public static final] int B; //갖다 쓰려면은 반드시 static. final 이라서 변경 못해(상수).
+	//생성자 없음 - class modifier는 상황에 맞춰줘야 하는데, 인터페이스는 자동으로 들어옴.
+	[public abstract] void B();
+}
+
+*콜렉션(표준화)
+	- 기본적인 자료구조(개념)을 만들어 줌.
+	- java.util.package
+	
+	1. List
+		- ArrayList : Object[] 동적크기
+		- 순서저장 (index 보유)
+	
+	2. Set
+		- 순서없음 (index 없음)
+		- 동일값 저장 안됨
+		
+		* 중복값 쓰면 안 될 때 이거 쓴다...
+	3. Map
+		- 키(key)와 밸류(value) 저장 구조
+		- 키는 중복 안됨
+	
+	
+	
