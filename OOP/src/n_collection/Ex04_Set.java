@@ -18,5 +18,4 @@ public class Ex04_Set{
 		
 		System.out.println(set);
 	}
-
 }

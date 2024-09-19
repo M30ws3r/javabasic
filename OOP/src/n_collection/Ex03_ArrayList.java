@@ -27,7 +27,6 @@ public class Ex03_ArrayList{
 		return list;
 	}
 }
-
 class Student{
 	String name;
 	int age;
